@@ -1,0 +1,30 @@
+# Student Rental Application
+
+A Django web application for managing roles and permission user.
+
+## Features
+
+- User authentication using JWT.
+
+
+## Requirements
+
+- Python 3.11+
+- Django 5.1.2
+- Django REST Framework 
+- SQLite (default database)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/babarakshay2019/AccessControlSystem.git
+   cd AccessControlSystem
+
+2. Build the Docker image:
+   ```bash
+   sudo docker-compose up --build
+3. Swager url to access 
+   ```bash
+   http://localhost:8000/api/docs/
+
